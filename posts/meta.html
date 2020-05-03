@@ -1,0 +1,83 @@
+<html>
+<head>
+
+<title>HTML meta tag</title></head>
+<body bgcolor="#F5F5DC">
+<h1>THE META TAG</h1>
+<hr>
+<h2>Definition and Usage</h2>
+<p>Metadata is data (information) about data.</p>
+<p>The &lt;meta&gt; tag provides metadata about the HTML document. Metadata will not 
+be displayed on the page, but will be machine parsable.</p>
+<p>Meta elements are typically used to specify page description, keywords, 
+author of the document, last modified, and other metadata.</p>
+<p>The metadata can be used by browsers (how to display content or reload page), 
+search engines (keywords),or other web services.</p>
+<h3>Tips and Notes</h3>
+<p><b>Note: </b>&lt;meta&gt; tags always goes inside the &lt;head&gt; element.</p>
+
+<p><b>Note:</b> Metadata is always passed as name/value pairs.</p>
+<p><b>Note:</b> The content attribute MUST be defined if the name or the 
+http-equiv attribute is defined. If none of these are defined, the content 
+attribute CANNOT be defined.</p>
+<hr>
+
+<h4>Examples</h4>
+
+<p><b>Example 1 - Define keywords for search engines:</b></p>
+<div class="code notranslate">
+<div>&lt;meta name=&quot;keywords&quot; content=&quot;HTML, CSS, XML, XHTML, JavaScript&quot;&gt;</div>
+</div>
+
+<p><b>Example 2 - Define a description of your web page:</b></p>
+<div class="code notranslate">
+<div>&lt;meta name=&quot;description&quot; content=&quot;Free Web tutorials on HTML and CSS&quot;&gt;</div>
+</div>
+
+<p><b>Example 3 - Define the author of a page:</b></p>
+<div class="code notranslate">
+<div>&lt;meta name=&quot;author&quot; content=&quot;Hege Refsnes&quot;&gt;</div>
+</div>
+
+<p><b>Example 4 - Refresh document every 30 seconds:</b></p>
+<div class="code notranslate">
+<div>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;30&quot;&gt;</div>
+</div>
+<br>
+<hr><h2>Attributes</h2>
+<table border="1"> 
+  <tr>
+    <th style="width:17%">Attribute</th>
+    <th style="width:23%">Value</th>
+    <th style="width:60%">Description</th>
+  </tr>
+  
+  <tr>
+    <td>content</a></td>
+    <td><i>text</i></td>
+    <td>Gives the value associated with the http-equiv or name attribute</td>
+  </tr>
+  <tr>
+    <td>http-equiv</a></td>
+    <td>content-type<br>
+      default-style<br>
+      refresh</td>
+    <td>Provides an HTTP header for the information/value of the content attribute</td>
+    </tr>
+  <tr>
+    <td>name</a></td>
+    <td>application-name<br>
+      author<br>
+      description<br>
+      generator<i><br>
+      </i>keywords</td>
+    <td>Specifies a name for the metadata</td>
+  </tr>
+  <tr>
+    <td>scheme</a></td>
+    <td><i>format/URI</i></td>
+       <td>Specifies a scheme to be used to interpret the value of the 
+	content attribute</td>  </tr>
+</table><a href="intro.html#Home">Go To Home Page</a>
+</body>
+</html>
