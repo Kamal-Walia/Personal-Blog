@@ -1,3 +1,8 @@
+body{
+    background-image: url(../assets/images/background.jpg);
+    color: #FFFFFF;
+}
+
 #header {
     position: relative;
     top: -10px;
